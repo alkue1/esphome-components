@@ -45,6 +45,7 @@ namespace wmbus {
     this->add_driver(new Mkradio4a());
     this->add_driver(new Multical21());
     this->add_driver(new Qheat());
+    this->add_driver(new Qcaloric());
     this->add_driver(new Qwater());
     this->add_driver(new Rfmtx1());
     this->add_driver(new Sharky774("51728910E66D83F851728910E66D83F8"));
